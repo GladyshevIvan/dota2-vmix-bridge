@@ -2,8 +2,8 @@ import os
 from pandas import DataFrame, ExcelWriter
 from wx import MessageBox, OK
 from openpyxl import load_workbook
-from database_manager import Dota2TournamentsDataBase
-from database_requests import show_match_stats
+from app.database_manager import Dota2TournamentsDataBase
+from app.database_requests import show_match_stats
 
 
 def make_datasource_excel(teams_df, players_df, path=''):

@@ -2,7 +2,7 @@ import os
 import sys
 import wx
 import asyncio
-from buttons_handlers import main, clean_db
+from app.buttons_handlers import main, clean_db
 
 
 class MyFrame(wx.Frame):

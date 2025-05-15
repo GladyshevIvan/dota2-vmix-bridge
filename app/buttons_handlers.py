@@ -1,8 +1,8 @@
 from wx import MessageBox, OK
-from api_handler import choose_api_mode
-from database_manager import Dota2TournamentsDataBase
-from database_requests import truncate_stats
-from convert_to_xlsx import convert_stats_from_db
+from app.api_handler import choose_api_mode
+from app.database_manager import Dota2TournamentsDataBase
+from app.database_requests import truncate_stats
+from app.convert_to_xlsx import convert_stats_from_db
 
 
 async def main(match_id, path, sourse, mode, database_name):
